@@ -8,6 +8,5 @@ venue: "SoCG"
 arxivurl: "2303.08612"
 conferenceurl: "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2023.36"
 slidesurl: "/files/slides-combinatorial-designs-meet-hypercliques.pdf"
-videourl: ""
 ---
 

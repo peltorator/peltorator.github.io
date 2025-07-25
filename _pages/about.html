@@ -1,0 +1,45 @@
+---
+permalink: /
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+<h1 style="text-decoration: underline;">Publications</h1>
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">see also: <a href="{{site.author.googlescholar}}">google scholar</a>.</div>
+{% endif %}
+
+<!---{% include base_path %}--->
+
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <!---<h2>{{ category[1].title }}</h2><hr />--->
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+
+<h1 style="text-decoration: underline;">Education:</h1>
+
+<ul>
+    <li>March 2024 – present:<br>Ph.D. student in Computer Science at Saarland University, Saarbrücken, Germany (supervisor: <a href="https://people.mpi-inf.mpg.de/~kbringma/">Prof. Karl Bringmann</a>)</li>
+    <li>October 2022 – March 2024:<br>Preparatory phase Ph.D. student in Computer Science at Saarland University, Saarbrücken, Germany</li>
+    <li>September 2018 – July 2022:<br>B.Sc. in Computer Science at Saint Petersburg State University<br>Title of Bachelor's Thesis: Improving Time Complexities of Segment Tree Beats Algorithms (supervisor: <a href="https://alexanderskulikov.github.io/">Prof. Alexander S. Kulikov</a>)</li>
+</ul>

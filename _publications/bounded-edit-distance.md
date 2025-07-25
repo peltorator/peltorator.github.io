@@ -3,7 +3,6 @@ title: "Bounded Edit Distance: Optimal Static and Dynamic Algorithms for Small I
 authors: "Egor Gorbachev and Tomasz Kociumaka"
 collection: publications
 category: conferences
-excerpt: "TODO"
 date: 2025-06-15
 venue: "STOC"
 arxivurl: "2404.06401"

@@ -3,7 +3,6 @@ title: "A Fine-grained Classification of Subquadratic Patterns for Subgraph List
 authors: "Karl Bringmann and Egor Gorbachev"
 collection: publications
 category: conferences
-excerpt: "TODO"
 date: 2025-06-15
 venue: "STOC"
 arxivurl: "2404.04369"

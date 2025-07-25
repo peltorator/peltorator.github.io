@@ -3,7 +3,6 @@ title: "Combinatorial Designs Meet Hypercliques: Higher Lower Bounds for Klee's 
 authors: "Egor Gorbachev and Marvin Künnemann"
 collection: publications
 category: conferences
-excerpt: "TODO"
 date: 2023-06-09
 venue: "SoCG"
 arxivurl: "2303.08612"

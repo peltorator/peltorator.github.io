@@ -3,7 +3,6 @@ title: "Bounded Weighted Edit Distance: Dynamic Algorithms and Matching Lower Bo
 authors: "Itai Boneh, Egor Gorbachev, and Tomasz Kociumaka"
 collection: publications
 category: conferences
-excerpt: "TODO"
 date: 2025-09-15
 venue: "ESA"
 arxivurl: "2507.02548"

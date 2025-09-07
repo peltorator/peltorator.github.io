@@ -60,7 +60,7 @@
 
         {% if post.arxivurl%}
           {% unless first %} | {% endunless %}
-          <a href="https://arxiv.org/abs/{{ post.arxivurl }}">arXiv version</a>
+          <a href="https://arxiv.org/pdf/{{ post.arxivurl }}">arXiv pdf</a> | <a href="https://arxiv.org/abs/{{ post.arxivurl }}">arXiv abs</a>
           {% assign first = false %}
         {% endif %}
 

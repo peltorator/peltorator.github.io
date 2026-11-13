@@ -3,6 +3,6 @@ title: "Edit Distance Approximation: Subquadratic Factor Three and Monge Approxi
 authors: "Egor Gorbachev"
 collection: publications
 category: conferences
-date: 2027-02-01
+date: 2026-11-11
 arxivurl: "2610.01311"
 ---

@@ -4,5 +4,5 @@ authors: "Egor Gorbachev"
 collection: publications
 category: conferences
 date: 2027-02-01
-arxivurl: "2608.07134"
+arxivurl: "2610.01311"
 ---
